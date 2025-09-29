@@ -9,6 +9,15 @@
 #include <dt-bindings/zmk/keys.h>
 
 / {
+    combos {
+        compatible = "zmk,combos";
+
+        ToMomentary {
+            bindings = <&mo 1>;
+            key-positions = <36 24>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
